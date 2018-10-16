@@ -1,0 +1,180 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.trainingModule {
+  .container {
+    max-width: 700px;
+    margin: 0px auto;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1);
+  }
+
+  .row {
+    @include ms-Grid-row;
+    @include ms-fontColor-white;
+    background-color: chocolate;
+    padding: 20px;
+  }
+
+  .column {
+    @include ms-Grid-col;
+    @include ms-lg10;
+    @include ms-xl8;
+    @include ms-xlPush2;
+    @include ms-lgPush1;
+  }
+
+  .fontRed {
+    font-size: 11px;
+    color: black;
+  }
+
+  .title {
+    @include ms-font-xl;
+    @include ms-fontColor-white;
+  }
+
+  .subTitle {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
+  .description {
+    @include ms-font-l;
+    @include ms-fontColor-white;
+  }
+
+  .hideElement  {
+    display: none;
+  }
+
+  .button {
+    // Our button
+    text-decoration: none;
+    height: 32px;
+
+    // Primary Button
+    min-width: 80px;
+    background-color: green;
+    border-color: $ms-color-themePrimary;
+    color: $ms-color-white;
+
+    // Basic Button
+    outline: transparent;
+    position: relative;
+    font-family: "Segoe UI WestEuropean","Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: $ms-font-size-m;
+    font-weight: $ms-font-weight-regular;
+    border-width: 0;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0 16px;
+
+    .label {
+      font-weight: $ms-font-weight-semibold;
+      font-size: $ms-font-size-m;
+      height: 32px;
+      line-height: 32px;
+      margin: 0 4px;
+      vertical-align: top;
+      display: inline-block;
+    }
+  }
+
+  .hideElement  {
+    display: none;
+  }
+
+  .hideElementManager  {
+    display: none;
+  }
+
+  .customFont {
+    font-size:11px;
+  }
+
+  .tableStyle{ 
+    display:  table ;
+    margin-left : 0px ;
+  }
+
+  .panelStyle{ 
+    background:  lightblue ;
+  }
+
+  .divStyle{
+    background:  #eee ;
+    padding:  20px ;
+    margin:  20px ;
+  }
+
+  .headerCaptionStyle{
+    background: chocolate ;
+    display:  table-row ;
+    border:  solid ;
+    text-align :  center ;
+    width :  715px ;
+    height :  30px ;
+    padding-top :  3px ;
+    color :  white ;
+    margin-left :  0px ;
+    display :  block ;
+  }
+
+  .headerStyle{
+  background:  chocolate ;
+  display:  table-row ;
+    border:  solid ;
+    text-align :  center ;
+    width :  100px ;
+    height :  30px ;
+    padding-top :  10px ;
+    color :  white ;
+  }
+
+  .tableCaptionStyle{
+  background: chocolatedrab ;
+  display:  block ;
+  font-size :  20px ;
+  font-weight:  bold ;
+    border:  solid ;
+    text-align :  center ;
+    width :  650px ;
+    height :  30px ;
+    padding-top :  3px ;
+    border-radius:  25px ;
+    margin-left :  30px ;
+    margin-top :  20px ;
+    color:white;
+  }
+
+
+  .rowCaptionStyle{
+  width :  600px ;
+  display :   table-caption ;
+  background: chocolate ;
+  text-align :  center ;
+  padding:  20px ;
+  font-size :  20px ;
+  font-weight : bold ;
+  color :  white ;
+  }
+
+  .rowStyle{
+  display :   table-row ;
+  background:  #eee ;
+  padding:  20px ;
+  margin:  20px ;
+  font-weight : bold ;
+  }
+
+  .CellStyle{ 
+    display:  table-cell ;
+    border:  solid ;
+    border-color :  white ;
+    text-align :  center ;
+    width :  150px ;
+    height :  30px ;
+    padding-top :  10px ;         
+  } 
+}

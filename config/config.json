@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "training-module-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/trainingModule/TrainingModuleWebPart.js",
+          "manifest": "./src/webparts/trainingModule/TrainingModuleWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+      "jquery":{
+          "path": "node_modules/jquery/dist/jquery.min.js",
+          "globalName": "jQuery"
+      }
+
+
+  },
+  "localizedResources": {
+    "TrainingModuleWebPartStrings": "lib/webparts/trainingModule/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

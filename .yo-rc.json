@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "isCreatingSolution": true,
+    "environment": "spo",
+    "version": "1.6.0",
+    "libraryName": "training-module",
+    "libraryId": "868cf84f-c4c0-499d-b3c2-895464c6585c",
+    "packageManager": "npm",
+    "componentType": "webpart"
+  }
+}
